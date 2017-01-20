@@ -8,20 +8,13 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.example.engineerakash.workingwithservice.MainActivity">
+    tools:context="com.example.intent.intentServiceActivityClass">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Simple Service"
+        android:text="Start Inetnt Service"
         android:layout_gravity="center"
-        android:onClick="simpleServiceModule"
-        />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Intent Service"
-        android:layout_gravity="center"
-        android:onClick="intentServiceModule"/>
+        android:onClick="startIntentService"/>
 
 </LinearLayout>

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.simpleservice.simpleServiceStartStopActivity;
+import com.example.intent.intentServiceActivityClass;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,4 +20,9 @@ public class MainActivity extends AppCompatActivity {
         Intent simpleServiceModuelIntent = new Intent(getApplicationContext(), simpleServiceStartStopActivity.class);
         startActivity(simpleServiceModuelIntent);
 }
+
+    public void intentServiceModule(View view) {
+        Intent intentServiceModuleIntent = new Intent(getBaseContext(), intentServiceActivityClass.class);
+        startActivity(intentServiceModuleIntent);
+    }
 }

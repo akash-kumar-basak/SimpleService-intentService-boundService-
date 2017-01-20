@@ -20,15 +20,55 @@ public class simpleServiceExtendedClass extends Service {
         // TODO: Return the communication channel to the service.
         throw new UnsupportedOperationException("Not yet implemented");
     }
-    public void simpleString()
+    public void numberCount()
     {
-        String simpleText = "simple service module";
-        Toast.makeText(simpleServiceExtendedClass.this, simpleText, Toast.LENGTH_SHORT).show();
+        for(int i = 0; i <= 5; i++)
+        {
+            switch (i)
+            {
+                case 0:
+                {
+                    Toast.makeText(simpleServiceExtendedClass.this, "one", Toast.LENGTH_SHORT).show();
+                    break;
+                }
+                case 1:
+                {
+                    Toast.makeText(simpleServiceExtendedClass.this, "two", Toast.LENGTH_SHORT).show();
+                    break;
+                }
+                case 2:
+                {
+                    Toast.makeText(simpleServiceExtendedClass.this, "three", Toast.LENGTH_SHORT).show();
+                    break;
+                }
+                case 3:
+                {
+                    Toast.makeText(simpleServiceExtendedClass.this, "four", Toast.LENGTH_SHORT).show();
+                    break;
+                }
+                case 4:
+                {
+                    Toast.makeText(simpleServiceExtendedClass.this, "five", Toast.LENGTH_SHORT).show();
+                    break;
+                }
+                case 5:
+                {
+                    Toast.makeText(simpleServiceExtendedClass.this, "no more number available", Toast.LENGTH_SHORT).show();
+                    break;
+                }
+                default:
+                {
+                    Toast.makeText(simpleServiceExtendedClass.this, "one", Toast.LENGTH_SHORT).show();
+                    break;
+                }
+            }
+        }
+
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        simpleString();
+        numberCount();
         return super.onStartCommand(intent, flags, startId);
     }
 

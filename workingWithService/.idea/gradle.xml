@@ -10,6 +10,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bound" />
+            <option value="$PROJECT_DIR$/intent" />
             <option value="$PROJECT_DIR$/simple" />
           </set>
         </option>
@@ -17,6 +19,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bound" />
+            <option value="$PROJECT_DIR$/intent" />
             <option value="$PROJECT_DIR$/simple" />
           </set>
         </option>
