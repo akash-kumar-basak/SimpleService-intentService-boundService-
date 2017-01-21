@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.example.simpleservice.simpleServiceStartStopActivity;
 import com.example.intent.intentServiceActivityClass;
+import com.example.bound.boundServiceActivityClass;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,5 +25,10 @@ public class MainActivity extends AppCompatActivity {
     public void intentServiceModule(View view) {
         Intent intentServiceModuleIntent = new Intent(getBaseContext(), intentServiceActivityClass.class);
         startActivity(intentServiceModuleIntent);
+    }
+
+    public void boundServiceModule(View view) {
+        Intent boundServiceModuleIntent = new Intent(getBaseContext(), boundServiceActivityClass.class);
+        startActivity(boundServiceModuleIntent);
     }
 }

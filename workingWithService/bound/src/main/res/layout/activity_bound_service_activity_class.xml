@@ -8,34 +8,24 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.example.engineerakash.workingwithservice.MainActivity">
+    tools:context="com.example.bound.boundServiceActivityClass">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Simple Service"
-        android:textColor="#08f3f7"
-        android:background="#097daf"
+        android:text="Bound service start"
         android:layout_gravity="center"
-        android:onClick="simpleServiceModule"
-        />
+        android:onClick="boundServiceStart"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Intent Service"
-        android:textColor="#08f3f7"
-        android:background="#097daf"
-        android:layout_marginTop="5dp"
+        android:text="sum"
         android:layout_gravity="center"
-        android:onClick="intentServiceModule"/>
+        android:onClick="sumShow"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bound Service"
-        android:textColor="#08f3f7"
-        android:background="#097daf"
-        android:layout_marginTop="5dp"
+        android:text="Back to main menu"
         android:layout_gravity="center"
-        android:onClick="boundServiceModule"/>
-
+        android:onClick="backToMenu"/>
 </LinearLayout>

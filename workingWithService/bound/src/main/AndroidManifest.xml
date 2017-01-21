@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.bound">
 
@@ -5,7 +6,12 @@
         android:allowBackup="true"
         android:label="@string/app_name"
         android:supportsRtl="true">
+        <activity android:name=".boundServiceActivityClass" />
 
+        <service
+            android:name=".boundServiceExtendedBinderClass"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
